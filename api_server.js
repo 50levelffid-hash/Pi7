@@ -18,7 +18,7 @@ app.use(express.urlencoded({ extended: true, limit: '10mb' }));
 // ============================================================
 const REPO_ID = 7;                    // ⭐ Repo 2
 const REPO_NAME = `REPO_${REPO_ID}_OF_20`;
-const API_DELAY_MS = 5000;            // ⭐ Har API ke baad minimum 5 sec
+const API_DELAY_MS = 2000;            // ⭐ Har API ke baad minimum 5 sec
 const MAX_DURATION_MIN = 10;
 
 // ============================================================
